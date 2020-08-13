@@ -4,6 +4,7 @@ terraform {
 
 provider "aws" {
   region = "us-east-2"
+  profile = "hrmos-prf-sandbox" # saml2awsで設定したprofile名
 
   # Allow any 2.x version of the AWS provider
   version = "~> 2.0"
